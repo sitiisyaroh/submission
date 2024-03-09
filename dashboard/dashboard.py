@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
 import seaborn as sns
+st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Assuming 'original_df' is your DataFrame containing the data
 all_df = pd.read_csv("all_data.csv")
